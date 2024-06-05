@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  background-color: lightgreen;
+}
